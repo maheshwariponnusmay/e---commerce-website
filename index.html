@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyShop</div>
+      <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Shop</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <h1>Welcome to online shoping</h1>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="featured">
+    <h2>All Popular</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="images/kurthi" alt="Product">
+        <h3>Womens Ware</h3>
+        <p>$20.00</p>
+        <button onclick="addToCart('Product 1', 20)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/mens" alt="Product">
+        <h3>Mens ware</h3>
+        <p>$30.00</p>
+        <button onclick="addToCart('Product 2', 30)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/kitchen" alt="Product">
+        <h3>Kitchen products</h3>
+        <p>$40.00</p>
+        <button onclick="addToCart('Product 3', 40)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/grocery" alt="Product">
+        <h3>Grocery</h3>
+        <p>$40.00</p>
+        <button onclick="addToCart('Product 3', 40)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/cosmetic" alt="Product">
+        <h3>cosmetic</h3>
+        <p>$40.00</p>
+        <button onclick="addToCart('Product 3', 40)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/jewllary" alt="Product">
+        <h3>jewellery</h3>
+        <p>$40.00</p>
+        <button onclick="addToCart('Product 3', 40)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/saree" alt="Product">
+        <h3>Saree</h3>
+        <p>$40.00</p>
+        <button onclick="addToCart('Product 3', 40)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/electro" alt="Product">
+        <h3>Electronics</h3>
+        <p>$40.00</p>
+        <button onclick="addToCart('Product 3', 40)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/baby" alt="Product">
+        <h3>baby Products</h3>
+        <p>$40.00</p>
+        <button onclick="addToCart('Product 3', 40)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/kids" alt="Product">
+        <h3>Kids Products</h3>
+        <p>$40.00</p>
+        <button onclick="addToCart('Product 3', 40)">Add to Cart</button>
+      </div>
+     
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 MyShop | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
